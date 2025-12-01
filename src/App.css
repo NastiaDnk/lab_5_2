@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.color-active:hover {
+  background-color:#0d6efd
+}
+
+.labels-font {
+  font-size: 14px;
+}
+
+.result-font {
+  font-size: 13px;
+}
+
+.min-height {
+  min-height: 250px;
+}
+
+td {
+  text-align: left;
+}
+
+.check-page .modal-body {
+  text-align: left;
+  margin-left: 10px;
+}
