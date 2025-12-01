@@ -11,14 +11,14 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
 export const NavigationBar = () => { 
     return(
-        <BrowserRouter>
+        <BrowserRouter basename="/lab_5_2">
             <Navbar bg="dark" variant={"dark"} expand="lg">
                 <Container>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link className='px-5 color-active' as={Link} to={"/possible_risks_sources"}>Можливі джерела ризиків</Nav.Link>
-                            <Nav.Link className='px-5 color-active' as={Link} to={"/potential_risk_events"}>Потенційні ризикові події</Nav.Link>
+                            <Nav.Link className='px-5 color-active' as={Link} to="/possible_risks_sources">Можливі джерела ризиків</Nav.Link>
+                            <Nav.Link className='px-5 color-active' as={Link} to="/potential_risk_events">Потенційні ризикові події</Nav.Link>
                             <Nav.Link className='px-5 color-active' as={Link} to="/risk_analysis">Аналіз ризиків</Nav.Link>
                             <Nav.Link className='px-5 color-active' as={Link} to="/risk_planning">Планування ризиків</Nav.Link>
                             <Nav.Link className='px-5 color-active' as={Link} to="/risk_monitoring">Моніторинг ризиків</Nav.Link>
